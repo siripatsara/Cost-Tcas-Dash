@@ -1,0 +1,17 @@
+/* ทำให้ข้อความใน dropdown option ขึ้นบรรทัดใหม่ได้ */
+.Select__option,
+.css-11unzgr div[role="option"] {
+    white-space: normal !important;
+    line-height: 1.4em !important;
+    height: auto !important;
+    min-height: 40px !important;
+    padding: 8px 12px !important;
+}
+
+/* กำหนดความสูง dropdown menu ให้ scroll ได้ */
+.Select__menu,
+.css-1g6gooi {
+    max-height: 200px !important;
+    overflow-y: auto !important;
+    white-space: normal !important;
+}
